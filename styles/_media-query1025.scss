@@ -1,0 +1,76 @@
+@media (min-width: 1025px) {
+  .card {
+    display: flex;
+    padding: 3.5rem 5.5rem 6rem 0;
+    width: 950px;
+  }
+  .taxt-part {
+    padding: 0;
+    .faq {
+      padding: 0;
+      font-size: 3rem;
+      margin-top: 0;
+    }
+  }
+  .mobile-img,
+  .bakcground-mobile-shadow {
+    display: none;
+  }
+
+  .accordian-item {
+    margin-bottom: 1.5rem;
+    .accordian-question {
+      font-size: 1.6rem;
+    }
+
+    .accodian-answer {
+      line-height: 1.5;
+      font-size: 1.5rem;
+      // color: red;
+      // display: none;
+    }
+  }
+  .destop-image {
+    display: block;
+    position: relative;
+    width: 472px;
+    height: 359px;
+    right: 80px;
+    clip-path: inset(0 0 0 80px);
+  }
+  .box-d {
+    display: block;
+    position: absolute;
+    width: 191px;
+    height: 184px;
+    left: -92px;
+    top: 150px;
+  }
+  .svg-shadow {
+    display: block;
+    position: absolute;
+    left: -602px;
+    top: -350px;
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-size: cover;
+    width: 985px;
+    height: 966px;
+    clip-path: inset(350px 0 0 600px);
+  }
+  .taxt-part {
+    width: 100%;
+    // margin: 0;
+    // padding: 0;
+    h1 {
+      text-align: left;
+      margin-bottom: 3rem;
+    }
+  }
+  .accodian-answer.open {
+    display: block;
+  }
+  .accordian-question::after {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
